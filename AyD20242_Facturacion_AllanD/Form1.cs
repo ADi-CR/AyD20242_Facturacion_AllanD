@@ -12,6 +12,17 @@ namespace AyD20242_Facturacion_AllanD
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
             //acá escribimos el código para la funcionalidad de agregar un usuario
+
+            //trabajo asincrónico semana 13 inicia acá. 
+
+            //consideren que para obtener el valor de por ejemplo el nombre lo hacen de la siguiente 
+            //forma 
+            string n = TxtNombreCompleto.Text; //esto es solo ejemplo, deben borrar
+
+            //paso 1 secuencia SQ Usuario Agregar
+            //.... 
+
+
         }
 
         private void BtnConsultarCorreo_Click(object sender, EventArgs e)
@@ -39,5 +50,7 @@ namespace AyD20242_Facturacion_AllanD
             }
 
         }
+
+        
     }
 }
